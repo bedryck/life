@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
 self.addEventListener('install', (event) => {
     event.waitUntil(
-        caches.open('v2').then((cache) => {
+        caches.open('v5').then((cache) => {
             return cache.addAll([
                 '/index.html',
-                '/js/app.289c4a4f.js',
-                '/js/app.289c4a4f.js.map',
-                '/js/chunk-vendors.42ac218e.js',
-                '/js/chunk-vendors.42ac218e.js.map',
-                '/css/app.ba587dee.css',
+                '/js/app.b2696914.js',
+                '/js/app.b2696914.js.map',
+                '/js/chunk-vendors.04846e77.js',
+                '/js/chunk-vendors.04846e77.js.map',
+                '/css/app.2eb91960.css',
                 '/icons/icon.png',
             ]);
         })
