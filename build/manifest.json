@@ -1,0 +1,16 @@
+{
+    "name": "Life",
+    "short_name": "Life",
+    "description": "Life",
+    "icons": [
+        {
+            "src": "icons/icon.png",
+            "sizes": "225x225",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "theme_color": "chartreuse",
+    "background_color": "chartreuse"
+}
